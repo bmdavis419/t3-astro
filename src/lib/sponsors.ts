@@ -102,6 +102,12 @@ export const sponsors = [
     link: "https://soydev.link/notion",
   },
   {
+    name: "tuple",
+    image: "tuple.svg.astro",
+    description: "the best pair programming tool by far.",
+    link: "https://soydev.link/tuple",
+  },
+  {
     name: "ag grid",
     image: "ag-grid.svg.astro",
     description:
@@ -120,6 +126,12 @@ export const sponsors = [
     image: "ahrefs.svg.astro",
     description: "makes me feel like i don't suck at SEO.",
     link: "https://soydev.link/ahrefs",
+  },
+  {
+    name: "greptile",
+    image: "greptile.svg.astro",
+    description: "the most tasteful ai code review tool.",
+    link: "https://soydev.link/greptile",
   },
   {
     name: "zephyr cloud",
