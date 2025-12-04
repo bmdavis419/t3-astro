@@ -1,3 +1,10 @@
+type Sponsor = {
+  name: string;
+  image: string;
+  description: string;
+  link: string;
+};
+
 export const affiliates = [
   {
     name: "frontend masters",
@@ -27,7 +34,7 @@ export const affiliates = [
       "learn by rebuilding, literally - one of their courses is recreating redis lol.",
     link: "https://soydev.link/codecrafters",
   },
-];
+] satisfies Sponsor[];
 
 export const sponsors = [
   {
@@ -321,4 +328,4 @@ export const sponsors = [
       "the world's greatest log dump. they'll parse terabytes for you and give you a dashboard to see it all. wild.",
     link: "https://soydev.link/axiom",
   },
-];
+] satisfies Sponsor[];
